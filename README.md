@@ -109,7 +109,7 @@ docker-compose up --build
 - API Docs: http://localhost:8000/docs
 - Metrics: http://localhost:8000/metrics
 
-### Local Python Development
+### Local Python Development 
 
 1. Create a virtual environment:
 ```bash
