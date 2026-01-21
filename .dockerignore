@@ -1,0 +1,25 @@
+# Python bytecode files
+__pycache__
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+
+# Docker files
+.dockerignore
+Dockerfile
+
+# Git files
+.git/
+.gitignore
+
+# Test directories or any unnecessary files
+tests/
+*.log
