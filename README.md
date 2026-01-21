@@ -240,11 +240,13 @@ kubectl get pods -n novatrack
 Expected output:
 ```
 NAME                             READY   STATUS    RESTARTS   AGE
-grafana-785df45dfc-kvvfd         1/1     Running   0          3m
-novatrack-api-868c9455c7-smjpf   1/1     Running   0          12m
-novatrack-api-868c9455c7-z8lvm   1/1     Running   0          12m
-prometheus-5c6dddbf59-mjwpd      1/1     Running   0          11m
+grafana-692df45egt-kvvfd         1/1     Running   0          3m
+novatrack-api-264c1234c5-smjpf   1/1     Running   0          12m
+novatrack-api-264c1234c5-z8lvm   1/1     Running   0          12m
+prometheus-2c9eftbn42-mjwpd      1/1     Running   0          11m
 ```
+
+![Kubernetes Monitoring Pods Running](images/k8s-monitoring-pods.png)
 
 ### Horizontal Pod Autoscaling (Optional)
 
